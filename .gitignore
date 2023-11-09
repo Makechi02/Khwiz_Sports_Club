@@ -1,4 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
 
 # dependencies
 /node_modules
@@ -18,6 +32,15 @@
 .env.test.local
 .env.production.local
 
+# Logs
+logs
+*.log
+pnpm-debug.log*
+lerna-debug.log*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/assets/images/4a869385d5333e54f68e58f732fa9c3b.webp
+.prettierrc
+.eslintrc.cjs
